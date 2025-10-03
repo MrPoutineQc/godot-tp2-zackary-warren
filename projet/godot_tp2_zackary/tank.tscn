@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://da357ff2ubfdp"]
+
+[ext_resource type="Texture2D" uid="uid://ckhloke3axxb7" path="res://assets/images/sprites/tank_1.png" id="1_1ealj"]
+[ext_resource type="Texture2D" uid="uid://cwuinf7jux18h" path="res://assets/images/sprites/tank_2.png" id="2_a62es"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1ealj"]
+size = Vector2(168, 250)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a62es"]
+size = Vector2(168, 250)
+
+[node name="tank" type="Area2D"]
+metadata/_edit_group_ = true
+
+[node name="body_orange_tank" type="CharacterBody2D" parent="."]
+visible = false
+
+[node name="orange_tank" type="Sprite2D" parent="body_orange_tank"]
+texture = ExtResource("1_1ealj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="body_orange_tank"]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_1ealj")
+
+[node name="body_blue_tank" type="CharacterBody2D" parent="."]
+
+[node name="blue_tank" type="Sprite2D" parent="body_blue_tank"]
+texture = ExtResource("2_a62es")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="body_blue_tank"]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_a62es")
