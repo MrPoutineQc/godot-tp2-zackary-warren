@@ -5,8 +5,8 @@ Projet TP2 réalisé dans le cadre du cours d’Interactivité ludique
 Crédits : 
 
 Fonts : 
-https://www.dafont.com/apocalypse-grunge.font
-https://www.dafont.com/apocalypse-grunge.font
 
 Sprites : 
-https://craftpix.net/freebies/free-soldier-sprite-sheets-pixel-art/
+[Menu](https://prinbles.itch.io/under)
+[Tileset](https://craftpix.net/freebies/free-battle-location-top-down-game-tileset-pack-1/)
+[Sprites Tank 2D](https://craftpix.net/freebies/free-2d-battle-tank-game-assets/)
